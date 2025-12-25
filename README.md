@@ -29,24 +29,3 @@ This project uses **Item-Based Collaborative Filtering**:
 > 📌 Similarity is derived from **user rating patterns**, not genre or content.
 
 ---
-
-## 🗂️ Project Structure
-BOOK-RECOMMENDER-SYSTEM/
-│
-├── __pycache__/                 # Python cache files
-│
-├── BX-Book-Ratings.csv          # Raw book ratings dataset
-├── BX-Books.csv                 # Raw books metadata
-├── BX-Users.csv                 # Raw users dataset
-│
-├── book_pivot.pkl               # Pivot table (Book × User matrix)
-├── csr_matrix.npz               # Sparse CSR matrix for similarity computation
-├── final_rating.pkl             # Cleaned & processed ratings DataFrame
-│
-├── recommend.py                 # Core recommendation logic (KNN-based)
-├── Main.py                      # Streamlit web application (frontend)
-│
-├── process.ipynb                # Data preprocessing & model building notebook
-│
-├── requirements.txt             # Project dependencies
-├── README.md                    # Project documentation
